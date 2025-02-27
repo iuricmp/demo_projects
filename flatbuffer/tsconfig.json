@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",         // or "ESNext" depending on your runtime
+    "baseUrl": "./src",           // Adjust to your source directory
+    "moduleResolution": "node",   // Use Node.js-style resolution
+    "allowJs": true,              // Allow importing .js files
+    "esModuleInterop": true,      // For better module interop
+    "skipLibCheck": true,         // Skip type checking of declaration files
+    "outDir": "./dist",           // Output directory for compiled files
+    "rootDir": "./src"            // Root directory of your source files
+  },
+  "include": ["src/**/*"]
+}
